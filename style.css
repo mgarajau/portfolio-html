@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(41, 41, 41);
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    width: 60%;
+}
+
+.container-cabecalho {
+    display: flex;
+    background-color: #252525;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 0 auto;
+}
+
+a { 
+    color: rgb(136, 136, 136);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.links {
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+}
+
+.logo {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.logos img{
+    width: 55px;
+    height: 55px;
+}   
+
+.main-container {
+    display: flex;
+    
+    
+    flex-direction: column;
+}
+
+h1 {
+    color:  rgb(136, 136, 136);
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.sobre-mim {
+    color: rgb(136, 136, 136);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.sobre-mim p {
+    margin-right: auto;
+}
+
+.sobre-mim img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.botao {
+    background-color: #252525;
+    color: rgb(136, 136, 136);
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.botao:hover {
+    background-color: rgb(136, 136, 136);
+    color: #252525;
+    transition: 0.3s;
+}

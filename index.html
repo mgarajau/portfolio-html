@@ -1,36 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio Pessoal</title>
-</head>
-<body>
-
-<!--CABEÇALHO DO SITE-->
-    <header>
-    <p><a href="">Projetos</a></p>
-    <p><a href="">Contato</a></p>
-    <p><a href="">GitHub</a></p>
-    <p><a href="">Linkedin</a></p>
-    <p><a href="">Tecnologias</a></p>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Hubballi&family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:wght@700&family=Poppins:wght@400;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--CABEÇALHO DO SITE-->
+    <header class="container-cabecalho">
+      <div class="links">
+        <a href="">Tecnologias</a>
+        <a href="">Meus Projetos</a>
+        <a href="">Contato</a>
+        <a href="">Trabalhos Realizados</a>
+      </div>
+      <div class="logos">
+        <img src="img/github.svg" alt="Logo do GitHub" />
+        <img src="img/linkedin.svg" alt="Logo do LinkedIn" />
+      </div>
     </header>
 
-<!--CONTEÚDO PRINCIPAL-->
-    <main>
-        <h1>Matheus Garajau</h1>
-        <p>Desenvolvedor de Software com foco em Front-End, criando interfaces web organizadas, responsivas e semanticamente estruturadas. <br>
-        Experiência prática com HTML, CSS e JavaScript, aplicando lógica de programação e manipulação do DOM. <br>
-        Utilizo Git e GitHub para versionamento e organização de projetos. <br>
-        Cursando Engenharia de Software, com foco em fundamentos e boas práticas. <br>
-        Em constante evolução, buscando crescer profissionalmente na área de tecnologia.</p>
+    <!--CONTEÚDO PRINCIPAL-->
+    <main class="main-container">
+      <h1>Matheus Garajau</h1>
+      <div class="sobre-mim">
+        <p>
+          Desenvolvedor Front-End em formação, com experiência em HTML, CSS e <br>
+          JavaScript, criando interfaces web responsivas, organizadas e <br>
+          semanticamente estruturadas. Utilizo Git e GitHub para versionamento <br>
+          de projetos e aplico boas práticas de desenvolvimento. Cursando <br>
+          Engenharia de Software e em constante evolução na área de tecnologia.
+        </p>
 
-        <button>Clique aqui!</button>
+        <img src="img/user.png" alt="" />
+      </div>
+
+      <button class="botao">
+        Clique aqui!
+    </button>
     </main>
-
-    
-
-    
-    
-</body>
+  </body>
 </html>
